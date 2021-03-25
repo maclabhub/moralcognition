@@ -6,19 +6,16 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Black people',  //Will be used in the user feedback
-				nameForLogging : 'Black people', //Will be used in the logging
+				nameForFeedback : 'positive words',  //Will be used in the user feedback
+				nameForLogging : 'positive', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'donate'},
 					{word : 'contribute'},
 					{word : 'provide'},
-					{word : 'charitable'},
 					{word : 'help'},
 					{word : 'generous'},
-					{word : 'compassion'},
 					{word : 'charity'},
-					{word : 'sharing'},
 					{word : 'non-profit'},
 					{word : 'share'},
 					{word : 'give'},
@@ -27,8 +24,8 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 
 			},
 			{
-				nameForFeedback : 'White people',  //Will be used in the user feedback
-				nameForLogging : 'White people', //Will be used in the logging
+				nameForFeedback : 'negative words',  //Will be used in the user feedback
+				nameForLogging : 'negative', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'withhold'},
@@ -42,6 +39,24 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 					{word : 'for-profit'},
 					{word : 'selfish'},
 					{word : 'mine'}]
+				
+			},
+			{
+				nameForFeedback : 'neutral words',  //Will be used in the user feedback
+				nameForLogging : 'neutral', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'table'},
+					{word : 'chair'},
+					{word : 'desk'},
+					{word : 'paper'},
+					{word : 'lamp'},
+					{word : 'pen'},
+					{word : 'pencil'},
+					{word : 'shelf'},
+					{word : 'floor'},
+					{word : 'wall'},
+					{word : 'ceiling'}]
 			}
 		],
 
