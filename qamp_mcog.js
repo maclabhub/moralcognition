@@ -142,21 +142,21 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			firstBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			"Now we will move on to the real rating task. Remember, your goal is to <B><I>rate whether you like or dislike the language character as quickly as you can</B></I>.<br/><br/>" +
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
+			'Press the <b>space bar</b> when you are ready.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round 2 of nBlocks]</p></div>',
 			middleBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'Please continue to another round of this task. ' +
 			'The rules are exactly the same.<br/><br/>' +
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
+			'Press the <b>space bar</b> when you are ready.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 			lastBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'This is the final round. ' +
 			'Again, the rules are exactly the same.<br/><br/>' +
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
+			'Press the <b>space bar</b> when you are ready.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
