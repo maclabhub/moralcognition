@@ -121,7 +121,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			responses : 2, //Change to 7 for a 1-7 rating
 	        // When using 7 response options,
 	        // we will Extremely unpleasant, Moderately unpleasant, Slightly unpleasant, neutral, Slightly pleasant, Moderately pleasant, Extremely pleasant.
-		    targetCat : 'Chinese symbol', //The name of the targets (used in the instructions)
+		    targetCat : 'language character', //The name of the targets (used in the instructions)
 
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1,
@@ -131,8 +131,9 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//Instructions text for the 2-responses version.
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			'Press the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' +
-			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' +
+			'The next task measures responses under distracting conditions. You will be shown a word and a character from another language in rapid succession. Do nothing in response to the word. The word signals that the character is about to appear.  ' +
+			'Your goal is to <B><I>rate the language characters</B></I>. Please note that sometimes the words flashed prior to the language characters can influence people’s ratings of the characters. Please try your best not to be influenced by the words. Instead, <B><I>give us an honest judgment of whether or not you like each language character</B></I>.  ' +
+			'If you like the character, press <B>rightKey</B> on your keyboard. If you dislike the character, press <b>leftKey</b> on your keyboard. ' +
 			'The items appear and disappear quickly.  ' +
 			'Remember to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  +
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
