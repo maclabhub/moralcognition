@@ -130,32 +130,32 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			exampleBlock_targetDuration : 300,
 
 			//Instructions text for the 2-responses version.
-			exampleBlockInst: '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			'The next task measures responses under distracting conditions. You will be shown a word and a character from another language in rapid succession. Do nothing in response to the word. The word signals that the character is about to appear.  ' +
-			'Your goal is to <B><I>rate the language characters</B></I>. Please note that sometimes the words flashed prior to the language characters can influence people’s ratings of the characters. Please try your best not to be influenced by the words. Instead, <B><I>give us an honest judgment of whether or not you like each language character</B></I>. There are no right or wrong answers. Just report your “gut reaction” as quickly as possible.  ' +
+			exampleBlockInst: '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			'The next task measures responses under distracting conditions. You will be shown a word and a character from another language in rapid succession. Do nothing in response to the word. The word signals that the character is about to appear.<br/><br/>' +
+			'Your goal is to <B><I>rate the language characters</B></I>. Please note that sometimes the words flashed prior to the language characters can influence people’s ratings of the characters. Please try your best not to be influenced by the words. Instead, <B><I>give us an honest judgment of whether or not you like each language character</B></I>. There are no right or wrong answers. Just report your “gut reaction” as quickly as possible.<br/><br/>' +
 			'First, we will give you a few practice items so that you can get used to how the task works. Pay close attention. The language character will appear very briefly and might be easy to miss. The task will immediately move on to the next item as soon as you select a response.<br/><br/></p>'  +
-			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 			'If you like the character, press <B>rightKey</B> on your keyboard. If you dislike the character, press <b>leftKey</b> on your keyboard. ' +
 			'Place your index or middle fingers on those keys now. Press the <b>space bar</b> to begin.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
-			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			firstBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			"Now we will move on to the real rating task. Remember, your goal is to <B><I>rate whether you like or dislike the language character as quickly as you can</B></I>.<br/><br/>" +
-			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 			'Ready? Hit the <b>space bar</b>.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round 2 of nBlocks]</p></div>',
-			middleBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			middleBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'Please continue to another round of this task. ' +
 			'The rules are exactly the same.<br/><br/>' +
-			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 			'Ready? Hit the <b>space bar</b>.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
-			lastBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			lastBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'This is the final round. ' +
 			'Again, the rules are exactly the same.<br/><br/>' +
-			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 			'Ready? Hit the <b>space bar</b>.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
