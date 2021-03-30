@@ -20,7 +20,10 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 					{word : 'share'},
 					{word : 'give'},
 					{word : 'support'},
-					{word : 'sponsor'}]
+					{word : 'sponsor'},
+					{word : 'charitable'},
+					{word : 'sharing'},
+					{word : 'compassion'}]
 
 			},
 			{
@@ -30,8 +33,11 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 				mediaArray : [
 				    {word : 'withhold'},
 					{word : 'take'},
+					{word : 'table'},
 					{word : 'uncharitable'},
+					{word : 'chair'},
 					{word : 'keep'},
+					{word : 'desk'},
 					{word : 'greedy'},
 					{word : 'apathy'},
 					{word : 'for me'},
@@ -56,7 +62,10 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 					{word : 'shelf'},
 					{word : 'floor'},
 					{word : 'wall'},
-					{word : 'ceiling'}]
+					{word : 'ceiling'},
+					{word : 'floor'},
+					{word : 'book'},
+					{word : 'shelf'}]
 			}
 		],
 

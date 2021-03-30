@@ -58,7 +58,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 					nameForLogging : 'chinese',  //Will be used in the logging
 					//An array of all media objects for this category. The default is pic1-pic200.jpg
 					mediaArray : [
-						{image : 'Alien6.PNG'}, {image : 'Alien10.PNG'}, {image : 'Alien16.PNG'}, {image : 'Alien17.PNG'}, {image : 'Alien19.PNG'}, {image : 'Alien20.PNG'}, {image : 'Alien25.PNG'}, {image : 'Alien27.PNG'}, {image : 'Alien28.PNG'}, {image : 'Alien31.PNG'}, {image : 'Atl8.PNG'}, {image : 'Atl9.PNG'}, {image : 'Atl13.PNG'}, {image : 'Atl14.PNG'}, {image : 'Atl16.PNG'}, {image : 'Atl18.PNG'}, {image : 'Atl19.PNG'}, {image : 'Atl22.PNG'}, {image : 'Atl25.PNG'}, {image : 'Atl26.PNG'}, {image : 'Cirth5.PNG'}, {image : 'Cirth13.PNG'}, {image : 'Cirth15.PNG'}, {image : 'Cirth16.PNG'}, {image : 'Cirth25.PNG'}, {image : 'Cirth29.PNG'}, {image : 'Cirth38.PNG'}, {image : 'Cirth41.PNG'}, {image : 'Cirth48.PNG'}, {image : 'Cirth52.PNG'}, {image : 'Kling2.PNG'}, {image : 'Kling4.PNG'}, {image : 'Kling6.PNG'}, {image : 'Kling8.PNG'}, {image : 'Kling12.PNG'}, {image : 'Kling13.PNG'}, {image : 'Kling16.PNG'}, {image : 'Kling17.PNG'}, {image : 'Kling20.PNG'}, {image : 'Kling21.PNG'}, {image : 'OR5.PNG'}, {image : 'OR9.PNG'}, {image : 'OR11.PNG'}, {image : 'OR12.PNG'}, {image : 'OR13.PNG'}, {image : 'OR17.PNG'}, {image : 'OR24.PNG'}, {image : 'OR26.PNG'}, {image : 'OR28.PNG'}, {image : 'OR33.PNG'}, {image : 'pic34.jpg'}, {image : 'pic50.jpg'}, {image : 'pic60.jpg'}, {image : 'pic61.jpg'}, {image : 'pic64.jpg'}, {image : 'pic67.jpg'}, {image : 'pic77.jpg'}, {image : 'pic78.jpg'}, {image : 'pic82.jpg'}, {image : 'pic89.jpg'}
+						{image : 'Alien6.PNG'}, {image : 'Alien10.PNG'}, {image : 'Alien16.PNG'}, {image : 'Alien17.PNG'}, {image : 'Alien19.PNG'}, {image : 'Alien20.PNG'}, {image : 'Alien25.PNG'}, {image : 'Alien27.PNG'}, {image : 'Alien28.PNG'}, {image : 'Alien31.PNG'}, {image : 'Atl8.PNG'}, {image : 'Atl9.PNG'}, {image : 'Atl13.PNG'}, {image : 'Atl14.PNG'}, {image : 'Atl16.PNG'}, {image : 'Atl18.PNG'}, {image : 'Atl19.PNG'}, {image : 'Atl22.PNG'}, {image : 'Atl25.PNG'}, {image : 'Atl26.PNG'}, {image : 'Cirth5.PNG'}, {image : 'Cirth13.PNG'}, {image : 'Cirth15.PNG'}, {image : 'Cirth16.PNG'}, {image : 'Cirth25.PNG'}, {image : 'Cirth29.PNG'}, {image : 'Cirth38.PNG'}, {image : 'Cirth41.PNG'}, {image : 'Cirth48.PNG'}, {image : 'Cirth52.PNG'}, {image : 'Kling2.PNG'}, {image : 'Kling4.PNG'}, {image : 'Kling6.PNG'}, {image : 'Kling8.PNG'}, {image : 'Kling12.PNG'}, {image : 'Kling13.PNG'}, {image : 'Kling16.PNG'}, {image : 'Kling17.PNG'}, {image : 'Kling20.PNG'}, {image : 'Kling21.PNG'}, {image : 'OR5.PNG'}, {image : 'OR9.PNG'}, {image : 'OR11.PNG'}, {image : 'OR12.PNG'}, {image : 'OR13.PNG'}, {image : 'OR17.PNG'}, {image : 'OR24.PNG'}, {image : 'OR26.PNG'}, {image : 'OR28.PNG'}, {image : 'OR33.PNG'}, {image : 'Alien5.PNG'}, {image : 'Alien32.PNG'}, {image : 'Alien34.PNG'}, {image : 'Cirth1.PNG'}, {image : 'Cirth20.PNG'}, {image : 'Cirth31.PNG'}, {image : 'OR4.PNG'}, {image : 'OR7.PNG'}, {image : 'OR8.PNG'}, {image : 'OR15.PNG'}
 					]
 
 				}
@@ -130,33 +130,33 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			exampleBlock_targetDuration : 300,
 
 			//Instructions text for the 2-responses version.
-			exampleBlockInst: '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			'The next task measures responses under distracting conditions. You will be shown a word and a character from another language in rapid succession. Do nothing in response to the word. The word signals that the character is about to appear.<br/><br/>' +
-			'Your goal is to <B><I>rate the language characters</B></I>. Please note that sometimes the words flashed prior to the language characters can influence people’s ratings of the characters. Please try your best not to be influenced by the words. Instead, <B><I>give us an honest judgment of whether or not you like each language character</B></I>. There are no right or wrong answers. Just report your “gut reaction” as quickly as possible.<br/><br/>' +
+			exampleBlockInst: '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			'The next task measures responses under distracting conditions. You will be shown a word and a character from another language in rapid succession. Do nothing in response to the word. The word signals that the character is about to appear.  ' +
+			'Your goal is to <B><I>rate the language characters</B></I>. Please note that sometimes the words flashed prior to the language characters can influence people’s ratings of the characters. Please try your best not to be influenced by the words. Instead, <B><I>give us an honest judgment of whether or not you like each language character</B></I>. There are no right or wrong answers. Just report your “gut reaction” as quickly as possible.  ' +
 			'First, we will give you a few practice items so that you can get used to how the task works. Pay close attention. The language character will appear very briefly and might be easy to miss. The task will immediately move on to the next item as soon as you select a response.<br/><br/></p>'  +
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 			'If you like the character, press <B>rightKey</B> on your keyboard. If you dislike the character, press <b>leftKey</b> on your keyboard. ' +
 			'Place your index or middle fingers on those keys now. Press the <b>space bar</b> to begin.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
-			firstBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			"Now we will move on to the real rating task. Remember, your goal is to <B><I>rate whether you like or dislike the language character as quickly as you can</B></I>.<br/><br/>" +
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Press the <b>space bar</b> when you are ready.</p>' +
+			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'Ready? Hit the <b>space bar</b>.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round 2 of nBlocks]</p></div>',
-			middleBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			middleBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'Please continue to another round of this task. ' +
 			'The rules are exactly the same.<br/><br/>' +
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Press the <b>space bar</b> when you are ready.</p>' +
+			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'Ready? Hit the <b>space bar</b>.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
-			lastBlockInst : '<div><p style="font-size:16px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			lastBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'This is the final round. ' +
 			'Again, the rules are exactly the same.<br/><br/>' +
-			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Press the <b>space bar</b> when you are ready.</p>' +
+			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'Ready? Hit the <b>space bar</b>.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
@@ -203,7 +203,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'You have completed the task<br/><br/>Press "space" to continue to next task.</p></div>',
+			'You have completed the task.<br/><br/>Press the space bar to continue to the next task.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.
