@@ -12,10 +12,15 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 				mediaArray : [
 				    {word : 'donate'},
 					{word : 'contribute'},
+					{word : 'paper'},
 					{word : 'provide'},
+					{word : 'pen'},
 					{word : 'help'},
+					{word : 'shelf'},
 					{word : 'generous'},
+					{word : 'wall'},
 					{word : 'charity'},
+					{word : 'floor'},
 					{word : 'non-profit'},
 					{word : 'share'},
 					{word : 'give'},
@@ -39,33 +44,18 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], fu
 					{word : 'keep'},
 					{word : 'desk'},
 					{word : 'greedy'},
+					{word : 'lamp'},
 					{word : 'apathy'},
+					{word : 'pencil'},
 					{word : 'for me'},
+					{word : 'floor'},
 					{word : 'retain'},
+					{word : 'ceiling'},
 					{word : 'for-profit'},
+					{word : 'book'},
 					{word : 'selfish'},
 					{word : 'mine'}]
-				
-			},
-			{
-				nameForFeedback : 'neutral words',  //Will be used in the user feedback
-				nameForLogging : 'neutral', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {word : 'table'},
-					{word : 'chair'},
-					{word : 'desk'},
-					{word : 'paper'},
-					{word : 'lamp'},
-					{word : 'pen'},
-					{word : 'pencil'},
-					{word : 'shelf'},
-					{word : 'floor'},
-					{word : 'wall'},
-					{word : 'ceiling'},
-					{word : 'floor'},
-					{word : 'book'},
-					{word : 'shelf'}]
+
 			}
 		],
 

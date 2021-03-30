@@ -107,7 +107,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			},
 
-			trialsInBlock : [33, 33, 33], //Number of trials in each block
+			trialsInBlock : [38, 38, 38], //Number of trials in each block
 			trialsInExample : 10, //Change to 0 if you don't want an example block
 
 			//Duration parameters.
