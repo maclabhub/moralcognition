@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog_V2.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 
