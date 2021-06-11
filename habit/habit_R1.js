@@ -6,56 +6,56 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_R
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'HAB_HELP1',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP1', //Will be used in the logging
+				nameForFeedback : 'give money to charity',  //Will be used in the user feedback
+				nameForLogging : 'give money to charity', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'give money to charity'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP2',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP2', //Will be used in the logging
+				nameForFeedback : 'donate money',  //Will be used in the user feedback
+				nameForLogging : 'donate money', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'donate money'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP3',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP3', //Will be used in the logging
+				nameForFeedback : 'give to those in need',  //Will be used in the user feedback
+				nameForLogging : 'give to those in need', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'give to those in need'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP4',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP4', //Will be used in the logging
+				nameForFeedback : 'volunteer your time',  //Will be used in the user feedback
+				nameForLogging : 'volunteer your time', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'volunteer your time'}]
 
 	},
 			{
-				nameForFeedback : 'HAB_HELP5',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP5', //Will be used in the logging
+				nameForFeedback : 'mow your neighbor’s grass',  //Will be used in the user feedback
+				nameForLogging : 'mow your neighbor’s grass', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'mow your neighbor’s grass'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP6',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP6', //Will be used in the logging
+				nameForFeedback : 'spend time with someone',  //Will be used in the user feedback
+				nameForLogging : 'spend time with someone', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'spend time with someone'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP7',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP7', //Will be used in the logging
+				nameForFeedback : 'make someone laugh',  //Will be used in the user feedback
+				nameForLogging : 'make someone laugh', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'make someone laugh'}]
