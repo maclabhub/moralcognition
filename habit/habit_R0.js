@@ -91,7 +91,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_R
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{word : 'table'}, {word : 'chair'}, {word : 'desk'}, {word : 'paper'}, {word : 'lamp'}, {word : 'pen'}, {word : 'pencil'}, {word : 'shelf'}, {word : 'floor'}, {word : 'wall'}]
+			mediaArray : [{word : 'go to college'}, {word : 'eat healthy foods'}, {word : 'watch soap operas'}, {word : 'read a book'}, {word : 'take a shower'}, {word : 'go for a walk'}, {word : 'meditate every day'}, {word : 'stay up late'}, {word : 'take mind-altering drug'}, {word : 'assemble bookshelves'}]
 		},
 
 		base_url : 'https://maclabhub.github.io/moralcognition/habit'
