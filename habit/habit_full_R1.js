@@ -137,16 +137,6 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p>' +
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
-			middleBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			'Now we are changing the task. We want to gauge how you make rapid or “snap” decisions, so you should answer as fast as you can.<br/><br/>' +
-			'Because you are answering quickly you will probably make some mistakes. That is okay. Just do the best that you can, while going as quickly as you can. Going too slowly results in an uninterpretable score.<br/><br/>' +
-			'We will begin on the next screen, starting with a few practice trials so you can get used to the new format. Remember, your task is still to determine if the behavior you see will help you improve your mind, but you should <B><I>answer as quickly as you can</B></I>.<br/><br/>' +
-			'I = Yes (it <I>will</I> improve my mind).<br/><br/>' +
-			'E = No (it <I>will not</I> improve my mind).<br/><br/>' +
-			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Place your index fingers on the “E” and “I” keys. Press the <b>space bar</b> to begin.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 
 			//Instructions text for the 7-responses version.
