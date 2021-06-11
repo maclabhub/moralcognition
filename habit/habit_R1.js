@@ -63,13 +63,6 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_R
 			}
 		],
 
-		examplePrimeStimulus :
-		{
-			nameForLogging : 'examplePrime', //Will be used in the logging
-			//An array of all media objects for this category.
-			mediaArray : [{word : 'go to college'}, {word : 'eat healthy foods'}, {word : 'watch soap operas'}, {word : 'read a book'}, {word : 'take a shower'}, {word : 'go for a walk'}, {word : 'meditate every day'}, {word : 'stay up late'}, {word : 'take mind-altering drug'}, {word : 'assemble bookshelves'}]
-		},
-
 		base_url : 'https://maclabhub.github.io/moralcognition/habit'
 
 	});
