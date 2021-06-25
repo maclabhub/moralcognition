@@ -139,9 +139,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'This is the second round. ' +
 			'Again, the rules are exactly the same.<br/><br/>' +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round blockNum of nBlocks]</p></div>',
+			'Ready? Hit the <b>space bar</b>.</p></div>',
 
 
 			//Instructions text for the 7-responses version.
