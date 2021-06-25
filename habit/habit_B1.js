@@ -60,6 +60,62 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_B
 				mediaArray : [
 				    {word : 'make someone laugh'}]
 
+			},
+			{
+				nameForFeedback : 'HAB_HELP8',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP8', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'brush your teeth'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_HELP9',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP9', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'watch TV'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_HELP10',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP10', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'bathe regularly'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_HELP11',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP11', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'sit in a chair'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_HELP12',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP12', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'take a picture of yourself'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_HELP13',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP13', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'play sports'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_HELP14',  //Will be used in the user feedback
+				nameForLogging : 'HAB_HELP14', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'go for a run'}]
+
 			}
 		],
 

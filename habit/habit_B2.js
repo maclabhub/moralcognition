@@ -60,6 +60,62 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_B
 				mediaArray : [
 				    {word : 'go on a date'}]
 
+			},
+			{
+				nameForFeedback : 'HAB_FUN8',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN8', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'mow your neighbor’s grass'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_FUN9',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN9', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'eat whole grain foods'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_FUN10',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN10', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'get plenty of sleep'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_FUN11',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN11', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'volunteer your time'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_FUN12',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN12', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'go grocery shopping'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_FUN13',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN13', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'sit in a chair'}]
+
+			},
+			{
+				nameForFeedback : 'HAB_FUN14',  //Will be used in the user feedback
+				nameForLogging : 'HAB_FUN14', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'eat fruits and vegetables'}]
+
 			}
 		],
 
