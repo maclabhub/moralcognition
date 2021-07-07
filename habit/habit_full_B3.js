@@ -51,7 +51,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				mediaArray : [{word : 'Table'}, {word : 'Chair'}]
 			},
 			//The CSS for all the target stimuli (usually irrelevant because the targets are Chinese pictographs.
-			targetStimulusCSS : {color:'#000000','font-size':'2.3em'},
+			targetStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
 			//The prime categories.
 			targetCats :  [
 				{
@@ -112,7 +112,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
-			primeDuration : 300000,
+			primeDuration : 100,
 			postPrimeDuration : 100, //Duration of blank screen between prime and target.
 			targetDuration : 100, //Duration of target presentation.
 			showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
@@ -380,7 +380,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				{
 					conditions: [{type:'inputEquals',value:'primeOut'}], // prime display duration finished
 					actions: [
-						{type:'hideStim',handle:'primeStim'}, // hide the prime stimulus
+					//	{type:'hideStim',handle:'primeStim'}, // hide the prime stimulus (SK: commented this out)
 						{type:'trigger',handle:'blankOut', duration:'<%=trialData.postPrimeDuration%>'}
 					]
 				},
