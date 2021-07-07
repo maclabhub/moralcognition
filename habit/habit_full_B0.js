@@ -112,8 +112,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
-			primeDuration : 100,
-			postPrimeDuration : 100, //Duration of blank screen between prime and target.
+			primeDuration : 10,
+			postPrimeDuration : 10, //Duration of blank screen between prime and target.
 			targetDuration : 100, //Duration of target presentation.
 			showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
 			ITI : 250, //Duration between trials.
@@ -125,8 +125,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1,
-			exampleBlock_primeDuration : 100,
-			exampleBlock_postPrimeDuration : 100,
+			exampleBlock_primeDuration : 10,
+			exampleBlock_postPrimeDuration : 10,
 			exampleBlock_targetDuration : 100,
 
 			//Instructions text for the 2-responses version.
@@ -134,9 +134,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'The goal for this round is: <B>improve your mind</B>.<br/><br/>' + 
 			'The behaviors will be shown to you one at a time. If you think a behavior will help <I><B>you</I></B> improve your mind, press the “I” key on your keyboard. If you think the behavior will not help <I><B>you</I></B> improve your mind, press the “E” key on your keyboard. Remember to respond based on your own opinion. The task will immediately proceed to the next behavior once you make a selection.<br/><br/></p>'  +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round blockNum of nBlocks]</p></div>',
+			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p></div>',
 			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			'Now we are changing the task. We want to gauge how you make rapid or “snap” decisions, so answer as fast as you can.<br/><br/>' +
 			'Because you are answering quickly you may make some mistakes. That is okay. Just do the best that you can, while answering quickly. Going too slowly results in an uninterpretable score.<br/><br/>' +
