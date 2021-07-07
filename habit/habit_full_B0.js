@@ -58,7 +58,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 					nameForLogging : 'chinese',  //Will be used in the logging
 					//An array of all media objects for this category. The default is pic1-pic200.jpg
 					mediaArray : [
-						{image : 'mask.PNG'}
+						{image : 'mask.png'}
 					]
 
 				}
@@ -84,12 +84,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The mask stimulus in the example block
 			exampleMaskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'mask.PNG'}
+				media : {image:'mask.png'}
 			},
 			//The mask stimulus
 			maskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'mask.PNG'}
+				media : {image:'mask.png'}
 			},
 
 
