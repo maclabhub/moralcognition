@@ -73,12 +73,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//The fixation stimulus
 			fixationStimulus : {
-				css : {color:'#000000', 'font-size':'3em'},
+				css : {color:'#000000', 'font-size':'2.3em'},
 				media : {word:'+'}
 			},
 			//The fixation stimulus in the example block
 			exampleFixationStimulus : {
-				css : {color:'000000', 'font-size':'3em'},
+				css : {color:'000000', 'font-size':'2.3em'},
 				media : {word:'+'}
 			},
 			//The mask stimulus in the example block
@@ -138,9 +138,9 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<p style="font-size:12px; text-align:center; font-family:arial">' +
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			'Now we are changing the task. We want to gauge how you make rapid or “snap” decisions, so you should answer as fast as you can.<br/><br/>' +
-			'Because you are answering quickly you will probably make some mistakes. That is okay. Just do the best that you can, while going as quickly as you can. Going too slowly results in an uninterpretable score.<br/><br/>' +
-			'We will begin on the next screen, starting with a few practice trials so you can get used to the new format. Remember, your task is still to determine if the behavior you see will help you improve your mind, but you should <B><I>answer as quickly as you can</B></I>.<br/><br/>' +
+			'Now we are changing the task. We want to gauge how you make rapid or “snap” decisions, so answer as fast as you can.<br/><br/>' +
+			'Because you are answering quickly you may make some mistakes. That is okay. Just do the best that you can, while answering quickly. Going too slowly results in an uninterpretable score.<br/><br/>' +
+			'We will start with a few practice trials so you can get used to the new format. Remember, your task is still to determine if the behavior you see will help you improve your mind, but you should <B><I>answer as quickly as you can</B></I>.<br/><br/>' +
 			'I = Yes (it <I>will</I> improve my mind).<br/><br/>' +
 			'E = No (it <I>will not</I> improve my mind).<br/><br/>' +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
@@ -189,7 +189,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'Press the space bar to continue to the next task.</p></div>',
+			'Now we will move on to the real task. Remember, we are interested in your “snap” decision making so answer as quickly as you can. Press the space bar to continue.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.
