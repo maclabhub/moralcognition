@@ -29,7 +29,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				borderColor: 'lightblue'
 			},
 			//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
+			primeStimulusCSS : {color:'#000000','font-size':'2.3em'},
 			//The prime categories.
 			primeCats :  [
 				{
@@ -51,14 +51,14 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				mediaArray : [{word : 'Table'}, {word : 'Chair'}]
 			},
 			//The CSS for all the target stimuli (usually irrelevant because the targets are Chinese pictographs.
-			targetStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
+			targetStimulusCSS : {color:'#000000','font-size':'2.3em'},
 			//The prime categories.
 			targetCats :  [
 				{
 					nameForLogging : 'chinese',  //Will be used in the logging
 					//An array of all media objects for this category. The default is pic1-pic200.jpg
 					mediaArray : [
-						{image : 'mask.jpg'}
+						{image : 'mask.PNG'}
 					]
 
 				}
@@ -84,12 +84,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The mask stimulus in the example block
 			exampleMaskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'mask.jpg'}
+				media : {image:'mask.PNG'}
 			},
 			//The mask stimulus
 			maskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'mask.jpg'}
+				media : {image:'mask.PNG'}
 			},
 
 
@@ -107,12 +107,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			},
 
-			trialsInBlock : [14, 14], //Number of trials in each block
+			trialsInBlock : [28], //Number of trials in each block
 			trialsInExample : 0, //Change to 0 if you don't want an example block
 
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
-			primeDuration : 800,
+			primeDuration : 300000,
 			postPrimeDuration : 100, //Duration of blank screen between prime and target.
 			targetDuration : 100, //Duration of target presentation.
 			showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
@@ -134,15 +134,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'The goal for this round is: <B>help others</B>.<br/><br/>' + 
 			'The behaviors will be shown to you one at a time. Respond based on your own opinion. If you think a behavior will help <I><B>you</I></B> to help others, press the “I” key on your keyboard. If you think the behavior will not help <I><B>you</I></B> to help others, press the “E” key on your keyboard. The task will immediately proceed to the next behavior once you make a selection.<br/><br/></p>'  +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round 1 of 2]</p></div>',
-			lastBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			'This is the second round. ' +
-			'The rules are exactly the same.<br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round 2 of 2]</p></div>',
+			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p></div>',
 
 
 			//Instructions text for the 7-responses version.
@@ -187,7 +179,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'You have completed the task.<br/><br/>Press the space bar to continue to the next task.</p></div>',
+			'Press the space bar to continue to the next task.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.

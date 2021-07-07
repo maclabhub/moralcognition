@@ -58,7 +58,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 					nameForLogging : 'chinese',  //Will be used in the logging
 					//An array of all media objects for this category. The default is pic1-pic200.jpg
 					mediaArray : [
-						{image : 'mask.jpg'}
+						{image : 'mask.PNG'}
 					]
 
 				}
@@ -84,12 +84,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The mask stimulus in the example block
 			exampleMaskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'mask.jpg'}
+				media : {image:'mask.PNG'}
 			},
 			//The mask stimulus
 			maskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'mask.jpg'}
+				media : {image:'mask.PNG'}
 			},
 
 
@@ -112,7 +112,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
-			primeDuration : 500,
+			primeDuration : 300000,
 			postPrimeDuration : 100, //Duration of blank screen between prime and target.
 			targetDuration : 100, //Duration of target presentation.
 			showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
@@ -125,7 +125,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1,
-			exampleBlock_primeDuration : 700,
+			exampleBlock_primeDuration : 300000,
 			exampleBlock_postPrimeDuration : 100,
 			exampleBlock_targetDuration : 100,
 
@@ -144,9 +144,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'I = Yes (it <I>will</I> improve my mind).<br/><br/>' +
 			'E = No (it <I>will not</I> improve my mind).<br/><br/>' +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Place your index fingers on the “E” and “I” keys. Press the <b>space bar</b> to begin.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round blockNum of nBlocks]</p></div>',
+			'Ready? Place your index fingers on the “E” and “I” keys. Press the <b>space bar</b> to begin.</p></div>',
 
 
 			//Instructions text for the 7-responses version.
@@ -191,7 +189,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'You have completed the task.<br/><br/>Press the space bar to continue to the next task.</p></div>',
+			'Press the space bar to continue to the next task.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.
