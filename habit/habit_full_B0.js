@@ -390,7 +390,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				{
 					conditions: [{type:'inputEquals',value:'primeOut'}], // prime display duration finished
 					actions: [
-						{type:'hideStim',handle:'primeStim'}, // hide the prime stimulus
+			//			{type:'hideStim',handle:'primeStim'}, // hide the prime stimulus
 						{type:'trigger',handle:'blankOut', duration:'<%=trialData.postPrimeDuration%>'}
 					]
 				},
