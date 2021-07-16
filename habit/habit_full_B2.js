@@ -179,7 +179,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'Press the space bar to continue to the next task.</p></div>',
+			'Press the space bar to continue.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.

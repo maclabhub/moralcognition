@@ -94,14 +94,6 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog_V2.js'],
 
 			},
 			{
-				nameForFeedback : 'non-profit',  //Will be used in the user feedback
-				nameForLogging : 'non-profit', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {word : 'non-profit'}]
-
-			},
-			{
 				nameForFeedback : 'share',  //Will be used in the user feedback
 				nameForLogging : 'share', //Will be used in the logging
 				//An array of all media objects for this category.
@@ -267,14 +259,6 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/qamp_mcog_V2.js'],
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'ceiling'}]
-
-			},
-			{
-				nameForFeedback : 'for-profit',  //Will be used in the user feedback
-				nameForLogging : 'for-profit', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {word : 'for-profit'}]
 
 			},
 			{
