@@ -6,280 +6,280 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'donate',  //Will be used in the user feedback
-				nameForLogging : 'donate', //Will be used in the logging
+				nameForFeedback : 'h_1',  //Will be used in the user feedback
+				nameForLogging : 'h_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'donate'}]
 
 			},
 			{
-				nameForFeedback : 'contribute',  //Will be used in the user feedback
-				nameForLogging : 'contribute', //Will be used in the logging
+				nameForFeedback : 'h_2',  //Will be used in the user feedback
+				nameForLogging : 'h_2', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'contribute'}]
 
 			},
 			{
-				nameForFeedback : 'paper',  //Will be used in the user feedback
-				nameForLogging : 'paper', //Will be used in the logging
+				nameForFeedback : 'h_3',  //Will be used in the user feedback
+				nameForLogging : 'h_3', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'paper'}]
 
 			},
 			{
-				nameForFeedback : 'provide',  //Will be used in the user feedback
-				nameForLogging : 'provide', //Will be used in the logging
+				nameForFeedback : 'h_4',  //Will be used in the user feedback
+				nameForLogging : 'h_4', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'provide'}]
 
 	},
 			{
-				nameForFeedback : 'pen',  //Will be used in the user feedback
-				nameForLogging : 'pen', //Will be used in the logging
+				nameForFeedback : 'h_5',  //Will be used in the user feedback
+				nameForLogging : 'h_5', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'pen'}]
 
 			},
 			{
-				nameForFeedback : 'help',  //Will be used in the user feedback
-				nameForLogging : 'help', //Will be used in the logging
+				nameForFeedback : 'h_6',  //Will be used in the user feedback
+				nameForLogging : 'h_6', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'help'}]
 
 			},
 			{
-				nameForFeedback : 'shelf',  //Will be used in the user feedback
-				nameForLogging : 'shelf', //Will be used in the logging
+				nameForFeedback : 'h_7',  //Will be used in the user feedback
+				nameForLogging : 'h_7', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'shelf'}]
 
 			},
 			{
-				nameForFeedback : 'generous',  //Will be used in the user feedback
-				nameForLogging : 'generous', //Will be used in the logging
+				nameForFeedback : 'h_8',  //Will be used in the user feedback
+				nameForLogging : 'h_8', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'generous'}]
 
 			},
 			{
-				nameForFeedback : 'wall',  //Will be used in the user feedback
-				nameForLogging : 'wall', //Will be used in the logging
+				nameForFeedback : 'h_9',  //Will be used in the user feedback
+				nameForLogging : 'h_9', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'wall'}]
 
 			},
 			{
-				nameForFeedback : 'charity',  //Will be used in the user feedback
-				nameForLogging : 'charity', //Will be used in the logging
+				nameForFeedback : 'h_10',  //Will be used in the user feedback
+				nameForLogging : 'h_10', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'charity'}]
 
 			},
 			{
-				nameForFeedback : 'floor',  //Will be used in the user feedback
-				nameForLogging : 'floor', //Will be used in the logging
+				nameForFeedback : 'h_11',  //Will be used in the user feedback
+				nameForLogging : 'h_11', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'floor'}]
 
 			},
 			{
-				nameForFeedback : 'share',  //Will be used in the user feedback
-				nameForLogging : 'share', //Will be used in the logging
+				nameForFeedback : 'h_12',  //Will be used in the user feedback
+				nameForLogging : 'h_12', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'share'}]
 
 			},
 			{
-				nameForFeedback : 'give',  //Will be used in the user feedback
-				nameForLogging : 'give', //Will be used in the logging
+				nameForFeedback : 'h_13',  //Will be used in the user feedback
+				nameForLogging : 'h_13', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'give'}]
 
 			},
 			{
-				nameForFeedback : 'support',  //Will be used in the user feedback
-				nameForLogging : 'support', //Will be used in the logging
+				nameForFeedback : 'h_14',  //Will be used in the user feedback
+				nameForLogging : 'h_14', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'support'}]
 
 			},
 			{
-				nameForFeedback : 'sponsor',  //Will be used in the user feedback
-				nameForLogging : 'sponsor', //Will be used in the logging
+				nameForFeedback : 'h_15',  //Will be used in the user feedback
+				nameForLogging : 'h_15', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'sponsor'}]
 
 			},
 			{
-				nameForFeedback : 'charitable',  //Will be used in the user feedback
-				nameForLogging : 'charitable', //Will be used in the logging
+				nameForFeedback : 'h_16',  //Will be used in the user feedback
+				nameForLogging : 'h_16', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'charitable'}]
 
 			},
 			{
-				nameForFeedback : 'sharing',  //Will be used in the user feedback
-				nameForLogging : 'sharing', //Will be used in the logging
+				nameForFeedback : 'h_17',  //Will be used in the user feedback
+				nameForLogging : 'h_17', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'sharing'}]
 
 			},
 			{
-				nameForFeedback : 'compassion',  //Will be used in the user feedback
-				nameForLogging : 'compassion', //Will be used in the logging
+				nameForFeedback : 'h_18',  //Will be used in the user feedback
+				nameForLogging : 'h_18', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'compassion'}]
 
 			},
 			{
-				nameForFeedback : 'withhold',  //Will be used in the user feedback
-				nameForLogging : 'withhold', //Will be used in the logging
+				nameForFeedback : 'h_19',  //Will be used in the user feedback
+				nameForLogging : 'h_19', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'withhold'}]
 
 			},
 			{
-				nameForFeedback : 'take',  //Will be used in the user feedback
-				nameForLogging : 'take', //Will be used in the logging
+				nameForFeedback : 'h_20',  //Will be used in the user feedback
+				nameForLogging : 'h_20', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'take'}]
 
 			},
 			{
-				nameForFeedback : 'table',  //Will be used in the user feedback
-				nameForLogging : 'table', //Will be used in the logging
+				nameForFeedback : 'h_21',  //Will be used in the user feedback
+				nameForLogging : 'h_21', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'table'}]
 
 			},
 			{
-				nameForFeedback : 'uncharitable',  //Will be used in the user feedback
-				nameForLogging : 'uncharitable', //Will be used in the logging
+				nameForFeedback : 'h_22',  //Will be used in the user feedback
+				nameForLogging : 'h_22', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'uncharitable'}]
 
 			},
 			{
-				nameForFeedback : 'chair',  //Will be used in the user feedback
-				nameForLogging : 'chair', //Will be used in the logging
+				nameForFeedback : 'h_23',  //Will be used in the user feedback
+				nameForLogging : 'h_23', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'chair'}]
 
 			},
 			{
-				nameForFeedback : 'keep',  //Will be used in the user feedback
-				nameForLogging : 'keep', //Will be used in the logging
+				nameForFeedback : 'h_24',  //Will be used in the user feedback
+				nameForLogging : 'h_24', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'keep'}]
 
 			},
 			{
-				nameForFeedback : 'desk',  //Will be used in the user feedback
-				nameForLogging : 'desk', //Will be used in the logging
+				nameForFeedback : 'h_25',  //Will be used in the user feedback
+				nameForLogging : 'h_25', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'desk'}]
 
 			},
 			{
-				nameForFeedback : 'greedy',  //Will be used in the user feedback
-				nameForLogging : 'greedy', //Will be used in the logging
+				nameForFeedback : 'h_26',  //Will be used in the user feedback
+				nameForLogging : 'h_26', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'greedy'}]
 
 			},
 			{
-				nameForFeedback : 'lamp',  //Will be used in the user feedback
-				nameForLogging : 'lamp', //Will be used in the logging
+				nameForFeedback : 'h_27',  //Will be used in the user feedback
+				nameForLogging : 'h_27', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'lamp'}]
 
 			},
 			{
-				nameForFeedback : 'apathy',  //Will be used in the user feedback
-				nameForLogging : 'apathy', //Will be used in the logging
+				nameForFeedback : 'h_28',  //Will be used in the user feedback
+				nameForLogging : 'h_28', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'apathy'}]
 
 			},
 			{
-				nameForFeedback : 'pencil',  //Will be used in the user feedback
-				nameForLogging : 'pencil', //Will be used in the logging
+				nameForFeedback : 'h_29',  //Will be used in the user feedback
+				nameForLogging : 'h_29', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'pencil'}]
 
 			},
 			{
-				nameForFeedback : 'for me',  //Will be used in the user feedback
-				nameForLogging : 'for me', //Will be used in the logging
+				nameForFeedback : 'h_30',  //Will be used in the user feedback
+				nameForLogging : 'h_30', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'for me'}]
 
 			},
 			{
-				nameForFeedback : 'retain',  //Will be used in the user feedback
-				nameForLogging : 'retain', //Will be used in the logging
+				nameForFeedback : 'h_31',  //Will be used in the user feedback
+				nameForLogging : 'h_31', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'retain'}]
 
 			},
 			{
-				nameForFeedback : 'ceiling',  //Will be used in the user feedback
-				nameForLogging : 'ceiling', //Will be used in the logging
+				nameForFeedback : 'h_32',  //Will be used in the user feedback
+				nameForLogging : 'h_32', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'ceiling'}]
 
 			},
 			{
-				nameForFeedback : 'book',  //Will be used in the user feedback
-				nameForLogging : 'book', //Will be used in the logging
+				nameForFeedback : 'h_33',  //Will be used in the user feedback
+				nameForLogging : 'h_33', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'book'}]
 
 			},
 			{
-				nameForFeedback : 'selfish',  //Will be used in the user feedback
-				nameForLogging : 'selfish', //Will be used in the logging
+				nameForFeedback : 'h_34',  //Will be used in the user feedback
+				nameForLogging : 'h_34', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'selfish'}]
 
 			},
 			{
-				nameForFeedback : 'mine',  //Will be used in the user feedback
-				nameForLogging : 'mine', //Will be used in the logging
+				nameForFeedback : 'h_35',  //Will be used in the user feedback
+				nameForLogging : 'h_35', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'mine'}]
