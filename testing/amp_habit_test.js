@@ -287,13 +287,6 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 			}
 		],
 
-		examplePrimeStimulus :
-		{
-			nameForLogging : 'examplePrime', //Will be used in the logging
-			//An array of all media objects for this category.
-			mediaArray : [{word : 'table'}, {word : 'chair'}, {word : 'desk'}, {word : 'paper'}, {word : 'lamp'}, {word : 'pen'}, {word : 'pencil'}, {word : 'shelf'}, {word : 'floor'}, {word : 'wall'}]
-		},
-
 		base_url : 'https://maclabhub.github.io/moralcognition/habit'
 
 	});
