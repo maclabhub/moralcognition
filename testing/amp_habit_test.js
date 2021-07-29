@@ -10,7 +10,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'donate'}]
+				    {word : 'donate money'}]
 
 			},
 			{
@@ -18,7 +18,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_2', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'contribute'}]
+				    {word : 'contribute X'}]
 
 			},
 			{
@@ -26,7 +26,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_3', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'paper'}]
+				    {word : 'paper clip'}]
 
 			},
 			{
@@ -34,7 +34,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_4', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'provide'}]
+				    {word : 'provide that'}]
 
 	},
 			{
@@ -50,7 +50,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_6', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'help'}]
+				    {word : 'help them'}]
 
 			},
 			{
@@ -58,7 +58,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_7', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'shelf'}]
+				    {word : 'top shelf'}]
 
 			},
 			{
@@ -66,7 +66,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_8', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'generous'}]
+				    {word : 'generous man'}]
 
 			},
 			{
@@ -74,7 +74,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_9', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'wall'}]
+				    {word : 'wall paper'}]
 
 			},
 			{
@@ -82,7 +82,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_10', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'charity'}]
+				    {word : 'give to charity'}]
 
 			},
 			{
@@ -90,7 +90,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_11', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'floor'}]
+				    {word : 'mow your neighbor’s grass'}]
 
 			},
 			{
@@ -98,7 +98,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 				nameForLogging : 'h_12', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'share'}]
+				    {word : 'take a picture of yourself'}]
 
 			},
 			{
