@@ -58,7 +58,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 					nameForLogging : 'chinese',  //Will be used in the logging
 					//An array of all media objects for this category. The default is pic1-pic200.jpg
 					mediaArray : [
-						{image : 'Alien6.PNG'}, {image : 'Alien10.PNG'}, {image : 'Alien16.PNG'}, {image : 'Alien17.PNG'}, {image : 'Alien19.PNG'}, {image : 'Alien20.PNG'}, {image : 'Alien25.PNG'}, {image : 'Alien27.PNG'}, {image : 'Alien28.PNG'}, {image : 'Alien31.PNG'}, {image : 'Atl8.PNG'}, {image : 'Atl9.PNG'}, {image : 'Atl13.PNG'}, {image : 'Atl14.PNG'}, {image : 'Atl16.PNG'}, {image : 'Atl18.PNG'}, {image : 'Atl19.PNG'}, {image : 'Atl22.PNG'}, {image : 'Atl25.PNG'}, {image : 'Atl26.PNG'}, {image : 'Cirth5.PNG'}, {image : 'Cirth13.PNG'}, {image : 'Cirth15.PNG'}, {image : 'Cirth16.PNG'}, {image : 'Cirth25.PNG'}, {image : 'Cirth29.PNG'}, {image : 'Cirth38.PNG'}, {image : 'Cirth41.PNG'}, {image : 'Cirth48.PNG'}, {image : 'Cirth52.PNG'}, {image : 'Kling2.PNG'}, {image : 'Kling4.PNG'}, {image : 'Kling6.PNG'}, {image : 'Kling8.PNG'}, {image : 'Kling12.PNG'}, {image : 'Kling13.PNG'}, {image : 'Kling16.PNG'}, {image : 'Kling17.PNG'}, {image : 'Kling20.PNG'}, {image : 'Kling21.PNG'}, {image : 'OR5.PNG'}, {image : 'OR9.PNG'}, {image : 'OR11.PNG'}, {image : 'OR12.PNG'}, {image : 'OR13.PNG'}, {image : 'OR17.PNG'}, {image : 'OR24.PNG'}, {image : 'OR26.PNG'}, {image : 'OR28.PNG'}, {image : 'OR33.PNG'}, {image : 'Alien5.PNG'}, {image : 'Alien32.PNG'}, {image : 'Alien34.PNG'}, {image : 'Cirth1.PNG'}, {image : 'Cirth20.PNG'}, {image : 'Cirth31.PNG'}, {image : 'OR4.PNG'}, {image : 'OR7.PNG'}, {image : 'OR8.PNG'}, {image : 'OR15.PNG'}
+						{image : 'mask.png'}
 					]
 
 				}
@@ -84,12 +84,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The mask stimulus in the example block
 			exampleMaskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'ampmask.jpg'}
+				media : {image:'mask.png'}
 			},
 			//The mask stimulus
 			maskStimulus : {
 				css : {color:'000000', 'font-size':'3em'},
-				media : {image:'ampmask.jpg'}
+				media : {image:'mask.png'}
 			},
 
 

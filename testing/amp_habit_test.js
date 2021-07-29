@@ -294,7 +294,7 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/testing/ampfull_ha
 			mediaArray : [{word : 'table'}, {word : 'chair'}, {word : 'desk'}, {word : 'paper'}, {word : 'lamp'}, {word : 'pen'}, {word : 'pencil'}, {word : 'shelf'}, {word : 'floor'}, {word : 'wall'}]
 		},
 
-		base_url : 'https://maclabhub.github.io/moralcognition/ampimages'
+		base_url : 'https://maclabhub.github.io/moralcognition/habit'
 
 	});
 });
