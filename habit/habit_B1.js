@@ -6,112 +6,112 @@ define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_B
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'HAB_HELP1',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP1', //Will be used in the logging
+				nameForFeedback : 'help_1',  //Will be used in the user feedback
+				nameForLogging : 'help_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'give money to charity'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP2',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP2', //Will be used in the logging
+				nameForFeedback : 'help_2',  //Will be used in the user feedback
+				nameForLogging : 'help_2', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'donate money'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP3',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP3', //Will be used in the logging
+				nameForFeedback : 'help_3',  //Will be used in the user feedback
+				nameForLogging : 'help_3', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'give to those in need'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP4',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP4', //Will be used in the logging
+				nameForFeedback : 'help_4',  //Will be used in the user feedback
+				nameForLogging : 'help_4', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'volunteer your time'}]
 
 	},
 			{
-				nameForFeedback : 'HAB_HELP5',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP5', //Will be used in the logging
+				nameForFeedback : 'help_5',  //Will be used in the user feedback
+				nameForLogging : 'help_5', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'mow your neighbor’s grass'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP6',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP6', //Will be used in the logging
+				nameForFeedback : 'help_6',  //Will be used in the user feedback
+				nameForLogging : 'help_6', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'spend time with someone'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP7',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP7', //Will be used in the logging
+				nameForFeedback : 'help_7',  //Will be used in the user feedback
+				nameForLogging : 'help_7', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'make someone laugh'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP8',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP8', //Will be used in the logging
+				nameForFeedback : 'help_8',  //Will be used in the user feedback
+				nameForLogging : 'help_8', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'brush your teeth'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP9',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP9', //Will be used in the logging
+				nameForFeedback : 'help_9',  //Will be used in the user feedback
+				nameForLogging : 'help_9', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'watch TV'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP10',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP10', //Will be used in the logging
+				nameForFeedback : 'help_10',  //Will be used in the user feedback
+				nameForLogging : 'help_10', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'bathe regularly'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP11',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP11', //Will be used in the logging
+				nameForFeedback : 'help_11',  //Will be used in the user feedback
+				nameForLogging : 'help_11', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'sit in a chair'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP12',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP12', //Will be used in the logging
+				nameForFeedback : 'help_12',  //Will be used in the user feedback
+				nameForLogging : 'help_12', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'take a picture of yourself'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP13',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP13', //Will be used in the logging
+				nameForFeedback : 'help_13',  //Will be used in the user feedback
+				nameForLogging : 'help_13', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'play sports'}]
 
 			},
 			{
-				nameForFeedback : 'HAB_HELP14',  //Will be used in the user feedback
-				nameForLogging : 'HAB_HELP14', //Will be used in the logging
+				nameForFeedback : 'help_14',  //Will be used in the user feedback
+				nameForLogging : 'help_14', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'go for a run'}]
