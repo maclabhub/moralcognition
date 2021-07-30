@@ -29,7 +29,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				borderColor: 'lightblue'
 			},
 			//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
+			primeStimulusCSS : {color:'#000000','font-size':'2.3em'},
 			//The prime categories.
 			primeCats :  [
 				{
@@ -73,12 +73,12 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//The fixation stimulus
 			fixationStimulus : {
-				css : {color:'#000000', 'font-size':'3em'},
+				css : {color:'#000000', 'font-size':'2.3em'},
 				media : {word:'+'}
 			},
 			//The fixation stimulus in the example block
 			exampleFixationStimulus : {
-				css : {color:'000000', 'font-size':'3em'},
+				css : {color:'000000', 'font-size':'2.3em'},
 				media : {word:'+'}
 			},
 			//The mask stimulus in the example block
@@ -107,8 +107,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			},
 
-			trialsInBlock : [35], //Number of trials in each block
-			trialsInExample : 0, //Change to 0 if you don't want an example block
+			trialsInBlock : [10], //Number of trials in each block
+			trialsInExample : 10, //Change to 0 if you don't want an example block
 
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
@@ -125,17 +125,24 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1,
-			exampleBlock_primeDuration : 100,
-			exampleBlock_postPrimeDuration : 100,
+			exampleBlock_primeDuration : 10,
+			exampleBlock_postPrimeDuration : 10,
 			exampleBlock_targetDuration : 100,
 
 			//Instructions text for the 2-responses version.
-			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			"Now we will move on to the real rating task. Remember, your goal is to <B><I>rate whether you like or dislike the language character as quickly as you can</B></I>.<br/><br/>" +
+			exampleBlockInst: '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			'The goal for this round is: <B>improve your mind</B>.<br/><br/>' + 
+			'The behaviors will be shown to you one at a time. If you think a behavior will help <I><B>you</I></B> improve your mind, press the “I” key on your keyboard. If you think the behavior will not help <I><B>you</I></B> improve your mind, press the “E” key on your keyboard. Remember to respond based on your own opinion. The task will immediately proceed to the next behavior once you make a selection.<br/><br/></p>'  +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round 2 of nBlocks]</p></div>',
+			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p></div>',
+			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			'Now we are changing the task. We want to gauge how you make rapid or “snap” decisions, so answer as fast as you can.<br/><br/>' +
+			'Because you are answering quickly you may make some mistakes. That is okay. Just do the best that you can, while answering quickly. Going too slowly results in an uninterpretable score.<br/><br/>' +
+			'We will start with a few practice trials so you can get used to the new format. Remember, your task is still to determine if the behavior you see will help you improve your mind, but you should <B><I>answer as quickly as you can</B></I>.<br/><br/>' +
+			'I = Yes (it <I>will</I> improve my mind).<br/><br/>' +
+			'E = No (it <I>will not</I> improve my mind).<br/><br/>' +
+			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
+			'Ready? Place your index fingers on the “E” and “I” keys. Press the <b>space bar</b> to begin.</p></div>',
 
 
 			//Instructions text for the 7-responses version.
@@ -180,7 +187,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'You have completed the task.<br/><br/>Press the space bar to continue to the next task.</p></div>',
+			'Now we will move on to the real task. Remember, we are interested in your “snap” decision making so answer as quickly as you can. Press the space bar to continue.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.
@@ -381,7 +388,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				{
 					conditions: [{type:'inputEquals',value:'primeOut'}], // prime display duration finished
 					actions: [
-					//	{type:'hideStim',handle:'primeStim'}, // hide the prime stimulus (SK: commented this out)
+			//			{type:'hideStim',handle:'primeStim'}, // hide the prime stimulus (SK: commented this out)
 						{type:'trigger',handle:'blankOut', duration:'<%=trialData.postPrimeDuration%>'}
 					]
 				},

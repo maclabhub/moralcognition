@@ -29,7 +29,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				borderColor: 'lightblue'
 			},
 			//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
+			primeStimulusCSS : {color:'#000000','font-size':'2.3em'},
 			//The prime categories.
 			primeCats :  [
 				{
@@ -107,7 +107,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			},
 
-			trialsInBlock : [35], //Number of trials in each block
+			trialsInBlock : [28], //Number of trials in each block
 			trialsInExample : 0, //Change to 0 if you don't want an example block
 
 			//Duration parameters.
@@ -130,12 +130,11 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			exampleBlock_targetDuration : 100,
 
 			//Instructions text for the 2-responses version.
-			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-			"Now we will move on to the real rating task. Remember, your goal is to <B><I>rate whether you like or dislike the language character as quickly as you can</B></I>.<br/><br/>" +
+			firstBlockInst: '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
+			'The goal for this round is: <B>help others</B>.<br/><br/>' + 
+			'The behaviors will be shown to you one at a time. Respond based on your own opinion. If you think a behavior will help <I><B>you</I></B> to help others, press the “I” key on your keyboard. If you think the behavior will not help <I><B>you</I></B> to help others, press the “E” key on your keyboard. The task will immediately proceed to the next behavior once you make a selection.<br/><br/></p>'  +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-			'Ready? Hit the <b>space bar</b>.</p>' +
-			'<p style="font-size:12px; text-align:center; font-family:arial">' +
-			'<color="000000">[Round 2 of nBlocks]</p></div>',
+			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p></div>',
 
 
 			//Instructions text for the 7-responses version.
@@ -180,7 +179,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'You have completed the task.<br/><br/>Press the space bar to continue to the next task.</p></div>',
+			'Press the space bar to continue.</p></div>',
 
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category.
