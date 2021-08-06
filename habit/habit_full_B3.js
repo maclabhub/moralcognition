@@ -132,7 +132,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//Instructions text for the 2-responses version.
 			firstBlockInst : '<div><p style="font-size:14px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
 			"The goal for this round is: <B>be physically healthy</B>.<br/><br/>" +
-			'The behaviors will be shown to you one at a time. Respond based on your own opinion. If you think a behavior will help <I><B>you</I></B> to be physically healthy, press the “I” key on your keyboard. If you think the behavior will not help <I><B>you</I></B> to be physically healthy, press the “E” key on your keyboard. The task will immediately proceed to the next behavior once you make a selection.<br/><br/></p>'  +
+			'The behaviors will be shown to you one at a time. Respond based on your own opinion. If you think a behavior will help <I><B>you</I></B> be physically healthy, press the “I” key on your keyboard. If you think the behavior will not help <I><B>you</I></B> be physically healthy, press the “E” key on your keyboard. The task will immediately proceed to the next behavior once you make a selection.<br/><br/></p>'  +
 			'<p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 			'Place your index or middle fingers on the "I" and "E" keys now. Press the <b>space bar</b> to begin.</p></div>',
 

@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_B3.js'], healction(APIConstructor, ampExtension){
+define(['pipAPI', 'https://maclabhub.github.io/moralcognition/habit/habit_full_B3.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 
